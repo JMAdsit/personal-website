@@ -1,12 +1,15 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import Menu from "./navigation/Menu";
+import Routing from "./navigation/Routing";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Switch>
-      <Route path="/">
-      </Route>
-    </Switch>);
+    <BrowserRouter>
+      <Menu />
+      <Routing />
+    </BrowserRouter>
+  );
 }
 
 export default App;
