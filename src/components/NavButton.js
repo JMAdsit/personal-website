@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 
 function NavButton({name, link}) {
     return (
-        <div className="nav-item mx-2 btn btn-info">
-            <Link 
-            className="nav-link text-white"
+        <Link 
+            className={"nav-link"}
             to={link}>
-                {name}
-            </Link>
-        </div>);
+            {name}
+        </Link>
+    );
 }
 
 export default NavButton;

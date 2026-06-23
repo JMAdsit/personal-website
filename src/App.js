@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "./navigation/Menu";
 import Routing from "./navigation/Routing";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
