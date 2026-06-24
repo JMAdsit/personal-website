@@ -6,7 +6,7 @@ function Home() {
     let body = "Home page stuff.";
 
     return (
-        <div className="d-flex flex-column justify-content-center">
+        <div className="main-content-box flex-column justify-content-center m-auto">
             <MainCard 
                 title={title}
                 body={body}

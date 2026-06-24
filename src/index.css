@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eeeeee;
-  background-image: url("bright-squares.png");
+  background-color: #ffffff;
+  background-image: url("./assets/bright-squares.png");
 }
 
 code {
@@ -14,11 +14,13 @@ code {
     monospace;
 }
 
-.nav-buffer {
-
+.main-content-box {
+  width: 1200px;
+  text-align: center;
 }
 
 .navbar {
+  width: 1200px;
   padding: 20px;
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -26,6 +28,16 @@ code {
   border-color: rgb(180, 180, 180);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 1333px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .main-content-box {
+    width: 90%;
+  }
 }
 
 .nav-link {

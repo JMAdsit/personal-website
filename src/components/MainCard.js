@@ -11,7 +11,6 @@ function MainCard({title, body}) {
         </div>
 
         <div className="card-body">
-            
             <p className="card-text">
                 {body}
             </p>
