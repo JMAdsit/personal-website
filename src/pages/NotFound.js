@@ -1,5 +1,5 @@
 import React from "react";
-import MainCard from "../components/MainCard";
+import TextCard from "../components/TextCard";
 
 /**
  * Defines the "Not Found" page that is displayed for any unmatched route.
@@ -12,7 +12,7 @@ function NotFound() {
   
     return (
         <div className="NotFound d-flex flex-column justify-content-center">
-            <MainCard 
+            <TextCard 
                 title={title}
                 body={body}    
             />

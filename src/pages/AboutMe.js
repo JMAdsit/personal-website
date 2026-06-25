@@ -1,5 +1,5 @@
 import React from "react";
-import MainCard from "../components/MainCard";
+import TextCard from "../components/TextCard";
 
 function AboutMe() {
     let title = "About Me";
@@ -7,7 +7,7 @@ function AboutMe() {
 
     return (
         <div className="d-flex flex-column justify-content-center">
-            <MainCard 
+            <TextCard 
                 title={title}
                 body={body}
             />

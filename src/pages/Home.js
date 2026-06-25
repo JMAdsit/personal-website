@@ -1,15 +1,13 @@
 import React from "react";
-import MainCard from "../components/MainCard";
+import TextCard from "../components/TextCard";
 
 function Home() {
-    let title = "Home";
-    let body = "Home page stuff.";
+    let body = "Full-stack developer and software engineer with experience in automated testing and regression test monitoring.";
 
     return (
         <div className="main-content-box flex-column justify-content-center m-auto">
-            <MainCard 
-                title={title}
-                body={body}
+            <TextCard 
+                cardBody={body}
             />
         </div>
     );
