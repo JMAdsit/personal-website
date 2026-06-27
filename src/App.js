@@ -5,12 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="pageFrame m-auto">
-        <Menu />
-        <Routing />
+      <div className="pageFrame">
+        <BrowserRouter>
+          <div className="contentFrame">
+            <Menu />
+            <Routing />
+          </div>
+        </BrowserRouter>
       </div>
-    </BrowserRouter>
   );
 }
 

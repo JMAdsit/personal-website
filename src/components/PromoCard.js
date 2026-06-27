@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = ""}) {
 
     if (orientation === "horizontal") {
         return (
-            <Card  className="card my-3 mx-auto">
+            <Card  className="horizontalCard card my-3 m-auto">
                 <Row>
                     <Col>
                         <Card.Img src={imageUrl} />
@@ -25,7 +25,7 @@ function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = ""}) {
                         </Card.Body>
                     </Row>
                     <Row>
-                        <Link>Link</Link>
+                        <Button>Link</Button>
                     </Row>
                     </Col>
                 </Row>
@@ -52,7 +52,7 @@ function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = ""}) {
                         </Card.Body>
                     </Row>
                     <Row>
-                        <Link>Link</Link>
+                        <Button>Link</Button>
                     </Row>
                 </Col>
         </Card>
