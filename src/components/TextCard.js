@@ -8,19 +8,19 @@ function IsTitleCard({title}) {
         <h2 className="card-title text-center">
             {title}
         </h2>
-    </div>)
+    </div>);
 }
 
-function TextCard({title, cardBody}) {
+function TextCard({title, textBody}) {
 
     return (
-    <div className="card rounded border border-primary my-3 mx-auto">
+    <div className="card my-3 mx-auto">
         
         <IsTitleCard title={title} />
 
         <div className="card-body">
             <p className="card-text">
-                {cardBody}
+                {textBody}
             </p>
         </div>
     </div>);

@@ -8,7 +8,7 @@ function Menu() {
             <nav id="nav" className="navbar justify-content-end m-auto">
                 <Stack direction="horizontal" gap={5}>
                     <NavButton name="Home" link="/" />
-                    <NavButton name="About" link="/aboutme" />
+                    <NavButton name="About" link="/about" />
                     <NavButton name="Projects" link="/projects" /> 
                 </Stack>
             </nav> 

@@ -14,13 +14,21 @@ code {
     monospace;
 }
 
-.main-content-box {
+.pageFrame {
   width: 1200px;
+}
+
+.text-card {
   text-align: center;
 }
 
+.card {
+  border: 2px solid rgb(180, 180, 180);
+  object-fit: 'cover';
+  padding: 20px;
+}
+
 .navbar {
-  width: 1200px;
   padding: 20px;
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -29,14 +37,15 @@ code {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #f5f5f5;
+  font-size: small;
+}
+
+.border-primary {
+  border-color: rgb(180, 180, 180);
 }
 
 @media (max-width: 1333px) {
-  .navbar {
-    width: 90%;
-  }
-
-  .main-content-box {
+  .pageFrame {
     width: 90%;
   }
 }

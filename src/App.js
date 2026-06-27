@@ -6,8 +6,10 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Menu />
-      <Routing />
+      <div className="pageFrame m-auto">
+        <Menu />
+        <Routing />
+      </div>
     </BrowserRouter>
   );
 }
