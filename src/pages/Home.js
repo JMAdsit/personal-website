@@ -13,55 +13,62 @@ function Home() {
     return (
         <div >
             <TextCard 
-            insertedClasses={"text-center"}
-            textBody={textBody} />
+                insertedClasses={"text-center"}
+                textBody={textBody} 
+            />
             
             <PromoCard 
-            imageUrl={Spheal} 
-            textBody={"Bup bup"} 
-            orientation="horizontal"
-            linkText={"Link"}
+                imageUrl={Spheal} 
+                textBody={"Bup bup"} 
+                orientation="horizontal"
+                linkText={"Link"}
+                insertedClasses={"mainPageSplashCard"}
             />
 
             <Row className="cardRow">
                 <Col>
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={textBody + textBody}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={textBody + textBody}
+                        linkText={"Link"} 
+                    />
                 </Col>
                 <Col>                        
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={"Bup bup"}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={"Bup bup"}
+                        linkText={"Link"} 
+                    />
                 </Col>
                 <Col>
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={"Bup bup"}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={"Bup bup"}
+                    />
                 </Col>
             </Row>
 
             <Row className="cardRow">
                 <Col>
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={textBody}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={textBody}
+                        linkText={"Link"} 
+                    />
                 </Col>
                 <Col>                        
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={"Bup bup"}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={"Bup bup"}
+                        linkText={"Link"} 
+                    />
                 </Col>
                 <Col>
                     <PromoCard 
-                    imageUrl={Spheal} 
-                    textBody={"Bup bup"}
-                    linkText={"Link"} />
+                        imageUrl={Spheal} 
+                        textBody={"Bup bup"}
+                        linkText={"Link"} 
+                    />
                 </Col>
             </Row>
         </div>

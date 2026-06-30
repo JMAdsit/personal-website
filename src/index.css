@@ -37,6 +37,10 @@ code {
   justify-content: center;
 }
 
+.mainPageSplashCard p {
+  font-size: 2em;
+}
+
 .linkRow {
   position: relative;
   left: 22px;
@@ -70,16 +74,6 @@ code {
   font-size: small;
 }
 
-.border-primary {
-  border-color: rgb(180, 180, 180);
-}
-
-@media (max-width: 1333px) {
-  .contentFrame {
-    width: 90%;
-  }
-}
-
 .nav-link {
   color: rgb(100, 100, 100);
   text-decoration: none;
@@ -95,4 +89,10 @@ code {
 
 .nav-link:active {
   color: rgb(60, 60, 60);
+}
+
+@media (max-width: 1333px) {
+  .contentFrame {
+    width: 90%;
+  }
 }

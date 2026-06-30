@@ -2,6 +2,21 @@ import React from "react";
 import { Card, Row, Col, Button } from "react-bootstrap";
 import { FaChevronCircleRight } from "react-icons/fa";
 
+function LinkCheck ({linkText, linkUrl}) {
+    if (!linkText) return null;
+
+    return (<
+        Row className="linkRow">
+            <Button 
+                className="promoCardLink"
+                to={linkUrl}>
+                {linkText}
+                <FaChevronCircleRight className="linkIcon" />
+            </Button>
+        </Row>
+    )
+}
+
 function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = "", insertedClasses}) {
 
     if (orientation === "horizontal") {
@@ -19,20 +34,15 @@ function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = "", ins
                                 </p>
                             </Card.Body>
                         </Row>
-                        <Row className="linkRow">
-                            <Button 
-                                className="promoCardLink"
-                                to={linkUrl}>
-                                    {linkText}
-                                    <FaChevronCircleRight className="linkIcon" />
-                            </Button>
-                        </Row>
+                        <LinkCheck 
+                            linkText={linkText} 
+                            linkUrl={linkUrl} 
+                        />
                     </Col>
                 </Row>
             </Card>
         );
     }
-    
 
     return (
         <Card  className={"card my-3 mx-auto" + insertedClasses}>
@@ -47,13 +57,10 @@ function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = "", ins
                             </p>
                         </Card.Body>
                     </Row>
-                    <Row className="linkRow">
-                        <Button className="promoCardLink"
-                            to={linkUrl}>
-                            {linkText}
-                            <FaChevronCircleRight className="linkIcon" />
-                        </Button>
-                    </Row>
+                    <LinkCheck 
+                        linkText={linkText} 
+                        linkUrl={linkUrl} 
+                    />
                 </Col>
         </Card>
     );
