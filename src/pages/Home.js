@@ -12,30 +12,56 @@ function Home() {
     
     return (
         <div >
-            <TextCard className={"text-align-center"}
+            <TextCard 
+            insertedClasses={"text-center"}
             textBody={textBody} />
             
             <PromoCard 
             imageUrl={Spheal} 
             textBody={"Bup bup"} 
             orientation="horizontal"
+            linkText={"Link"}
             />
 
-            <Row>
+            <Row className="cardRow">
                 <Col>
                     <PromoCard 
                     imageUrl={Spheal} 
-                    textBody={"Bup bup"} />
+                    textBody={textBody + textBody}
+                    linkText={"Link"} />
                 </Col>
                 <Col>                        
                     <PromoCard 
                     imageUrl={Spheal} 
-                    textBody={"Bup bup"} />
+                    textBody={"Bup bup"}
+                    linkText={"Link"} />
                 </Col>
                 <Col>
                     <PromoCard 
                     imageUrl={Spheal} 
-                    textBody={"Bup bup"} />
+                    textBody={"Bup bup"}
+                    linkText={"Link"} />
+                </Col>
+            </Row>
+
+            <Row className="cardRow">
+                <Col>
+                    <PromoCard 
+                    imageUrl={Spheal} 
+                    textBody={textBody}
+                    linkText={"Link"} />
+                </Col>
+                <Col>                        
+                    <PromoCard 
+                    imageUrl={Spheal} 
+                    textBody={"Bup bup"}
+                    linkText={"Link"} />
+                </Col>
+                <Col>
+                    <PromoCard 
+                    imageUrl={Spheal} 
+                    textBody={"Bup bup"}
+                    linkText={"Link"} />
                 </Col>
             </Row>
         </div>

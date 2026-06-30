@@ -21,12 +21,41 @@ code {
 
 .contentFrame {
   width: 1200px;
+  margin: auto;
 }
 
 .card {
   border: 2px solid rgb(180, 180, 180);
   object-fit: 'cover';
   padding: 20px;
+}
+
+.promoTextandLinkFrame {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;                
+  justify-content: center;
+}
+
+.linkRow {
+  position: relative;
+  left: 22px;
+}
+
+.promoCardLink {
+  background: linear-gradient(90deg,rgba(0, 171, 100) 0%, rgba(0, 148, 86) 100%);
+  border: none;
+  color: white;
+  text-align: left;
+  text-indent: 10%;
+  height: 3em;
+}
+
+.linkIcon {
+  position: absolute;
+  right: 5%;
+  top: 36%;
+  color: white;
 }
 
 .navbar {
@@ -46,7 +75,7 @@ code {
 }
 
 @media (max-width: 1333px) {
-  .pageFrame {
+  .contentFrame {
     width: 90%;
   }
 }

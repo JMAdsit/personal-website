@@ -11,10 +11,10 @@ function IsTitleCard({title}) {
     </div>);
 }
 
-function TextCard({title, textBody}) {
+function TextCard({title, textBody, insertedClasses}) {
 
     return (
-    <div className="card my-3 mx-auto">
+    <div className={"card my-3 " + insertedClasses}>
         
         <IsTitleCard title={title} />
 
