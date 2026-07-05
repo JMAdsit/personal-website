@@ -1,6 +1,7 @@
 import React from "react";
 import NavButton from "../components/NavButton";
-import Stack from 'react-bootstrap/Stack';
+import Stack from "react-bootstrap/Stack";
+import { HiMiniCodeBracket } from "react-icons/hi2";
 
 function Menu() {
     return (
@@ -12,6 +13,7 @@ function Menu() {
                     <NavButton name="Projects" link="/projects" /> 
                 </Stack>
             </nav> 
+            <HiMiniCodeBracket id="headerIcon" />
         </header>
     );
 }

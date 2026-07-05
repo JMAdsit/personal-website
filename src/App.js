@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./navigation/Menu";
 import Routing from "./navigation/Routing";
+import Footer from "./navigation/Footer";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
           <div className="contentFrame">
             <Menu />
             <Routing />
+            <Footer />
           </div>
         </BrowserRouter>
       </div>
