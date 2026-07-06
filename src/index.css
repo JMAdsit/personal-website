@@ -38,12 +38,18 @@ code {
 }
 
 .mainPageSplashCard p {
-  font-size: 2em;
+  font-size: 1.7em;
+}
+
+.mainPageSplashCard Button {
+  font-size: 1em;
 }
 
 .linkRow {
   position: relative;
-  left: 22px;
+  left: 33px;
+  margin-left: 25%;
+  width: 75%;
 }
 
 .promoCardLink {
@@ -51,13 +57,19 @@ code {
   border: none;
   color: white;
   text-align: left;
-  text-indent: 10%;
+  text-indent: 20px;
   height: 3em;
+  top: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+
 }
 
 .linkIcon {
   position: absolute;
-  right: 5%;
+  right: 17px;
   top: 36%;
   color: white;
 }

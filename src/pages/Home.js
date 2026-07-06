@@ -1,5 +1,4 @@
 import React from "react";
-import TextCard from "../components/TextCard";
 import { Row, Col } from "react-bootstrap";
 import PromoCard from "../components/PromoCard";
 import Spheal from "../assets/Spheal.gif";
@@ -11,17 +10,13 @@ let textBody =
 function Home() {
     
     return (
-        <div >
-            <TextCard 
-                insertedClasses={"text-center"}
-                textBody={textBody} 
-            />
-            
+        <div >            
             <PromoCard 
                 imageUrl={Spheal} 
-                textBody={"Bup bup"} 
+                textBody={textBody} 
                 orientation="horizontal"
-                linkText={"Link"}
+                linkText={"About Me"}
+                linkUrl={"/about"}
                 insertedClasses={"mainPageSplashCard"}
             />
 
@@ -29,45 +24,25 @@ function Home() {
                 <Col>
                     <PromoCard 
                         imageUrl={Spheal} 
-                        textBody={textBody + textBody}
-                        linkText={"Link"} 
+                        textBody={"Nice things said about me"}
+                        linkText={"Referrals"} 
+                        linkUrl={"/Referrals"}
                     />
                 </Col>
                 <Col>                        
                     <PromoCard 
                         imageUrl={Spheal} 
-                        textBody={"Bup bup"}
-                        linkText={"Link"} 
+                        textBody={"Blurb about projects"}
+                        linkText={"Projects"} 
+                        linkUrl={"/projects"}
                     />
                 </Col>
                 <Col>
                     <PromoCard 
                         imageUrl={Spheal} 
-                        textBody={"Bup bup"}
-                    />
-                </Col>
-            </Row>
-
-            <Row className="cardRow">
-                <Col>
-                    <PromoCard 
-                        imageUrl={Spheal} 
-                        textBody={textBody}
-                        linkText={"Link"} 
-                    />
-                </Col>
-                <Col>                        
-                    <PromoCard 
-                        imageUrl={Spheal} 
-                        textBody={"Bup bup"}
-                        linkText={"Link"} 
-                    />
-                </Col>
-                <Col>
-                    <PromoCard 
-                        imageUrl={Spheal} 
-                        textBody={"Bup bup"}
-                        linkText={"Link"} 
+                        textBody={"blurp about contacting me"}
+                        linkText={"Contact Me"} 
+                        linkUrl={"/contact"}
                     />
                 </Col>
             </Row>

@@ -1,21 +1,6 @@
 import React from "react";
-import { Card, Row, Col, Button } from "react-bootstrap";
-import { FaChevronCircleRight } from "react-icons/fa";
-
-function LinkCheck ({linkText, linkUrl}) {
-    if (!linkText) return null;
-
-    return (<
-        Row className="linkRow">
-            <Button 
-                className="promoCardLink"
-                to={linkUrl}>
-                {linkText}
-                <FaChevronCircleRight className="linkIcon" />
-            </Button>
-        </Row>
-    )
-}
+import { Card, Row, Col } from "react-bootstrap";
+import LinkCheck from "./LinkCheck";
 
 function PromoCard({imageUrl, textBody, linkText, linkUrl, orientation = "", insertedClasses}) {
 

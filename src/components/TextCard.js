@@ -1,4 +1,6 @@
 import React from "react";
+import LinkCheck from "./LinkCheck";
+import { Col, Row } from "react-bootstrap";
 
 function IsTitleCard({title}) {
     if (!title) {return null;}
@@ -11,18 +13,24 @@ function IsTitleCard({title}) {
     </div>);
 }
 
-function TextCard({title, textBody, insertedClasses}) {
+function TextCard({title, textBody, linkText, linkUrl, insertedClasses}) {
 
     return (
     <div className={"card my-3 " + insertedClasses}>
         
         <IsTitleCard title={title} />
 
-        <div className="card-body">
-            <p className="card-text">
-                {textBody}
-            </p>
-        </div>
+        <Col className="card-body">
+            <Row>
+                <p className="card-text">
+                    {textBody}
+                </p>
+            </Row>
+            <LinkCheck 
+                linkText={linkText}
+                linkUrl={linkUrl}
+            />
+        </Col>
     </div>);
 }
 
