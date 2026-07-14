@@ -30,6 +30,10 @@ code {
   padding: 20px;
 }
 
+.card-text {
+  white-space: pre-wrap;
+}
+
 .promoTextandLinkFrame {
   display: flex;
   flex-direction: column;

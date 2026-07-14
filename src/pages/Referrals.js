@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import TextCard from "../components/TextCard";
+import referrals from "../content/ReferralText";
 
 function Referrals () {
 
@@ -8,12 +9,12 @@ function Referrals () {
         <Row>
             <Col>
                 <TextCard 
-                    textBody={"Aaron Referral"}
+                    textBody={referrals.akrumsieg.text}
                 />
             </Col>
             <Col>
                 <TextCard 
-                    textBody={"Christian Referral"}
+                    textBody={referrals.cmurray.text}
                 />
             </Col>
         </Row>
