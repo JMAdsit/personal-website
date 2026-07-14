@@ -1,24 +1,14 @@
 import React from "react";
 import LinkCheck from "./LinkCheck";
 import { Col, Row } from "react-bootstrap";
-
-function IsTitleCard({title}) {
-    if (!title) {return null;}
-    
-    return (
-    <div className="card-header">
-        <h2 className="card-title text-center">
-            {title}
-        </h2>
-    </div>);
-}
+import TitleCheck from "./TitleCheck";
 
 function TextCard({title, textBody, linkText, linkUrl, insertedClasses}) {
 
     return (
     <div className={"card my-3 " + insertedClasses}>
         
-        <IsTitleCard title={title} />
+        <TitleCheck title={title} />
 
         <Col className="card-body">
             <Row>

@@ -1,5 +1,4 @@
 import React from "react";
-import TextCard from "../components/TextCard";
 import PromoCard from "../components/PromoCard";
 import Spheal from "../assets/Spheal.gif";
 
@@ -8,16 +7,13 @@ function AboutMe() {
     let textbody = "Things about me.";
 
     return (
-        <div>
-            <TextCard 
-                title={title}
-                textBody={textbody}
-            />
-            
+        <div>            
             <PromoCard 
+            title={title}
             imageUrl={Spheal} 
-            textBody={"Bup bup"} 
-            orientation="horizontal"/>
+            textBody={textbody} 
+            orientation="horizontal"
+            />
         </div>
     );
 }

@@ -30,8 +30,21 @@ code {
   padding: 20px;
 }
 
+.card-header {
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+}
+
 .card-text {
   white-space: pre-wrap;
+}
+
+.referral-card {
+  /* color:blue; */
+}
+
+.referral-card > .card-header {
+  /* color: green; */
 }
 
 .promoTextandLinkFrame {

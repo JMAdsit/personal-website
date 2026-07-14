@@ -9,12 +9,16 @@ function Referrals () {
         <Row>
             <Col>
                 <TextCard 
-                    textBody={referrals.akrumsieg.text}
+                    title={referrals.cmurray.title}
+                    textBody={referrals.cmurray.text}
+                    insertedClasses={"referral-card"}
                 />
             </Col>
             <Col>
                 <TextCard 
-                    textBody={referrals.cmurray.text}
+                    title={referrals.akrumsieg.title}
+                    textBody={referrals.akrumsieg.text}
+                    insertedClasses={"referral-card"}
                 />
             </Col>
         </Row>
