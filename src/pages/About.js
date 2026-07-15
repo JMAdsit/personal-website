@@ -1,17 +1,17 @@
 import React from "react";
 import PromoCard from "../components/PromoCard";
 import Spheal from "../assets/Spheal.gif";
+import aboutMe from "../content/AboutMeText";
 
 function AboutMe() {
     let title = "About Me";
-    let textbody = "Things about me.";
 
     return (
         <div>            
             <PromoCard 
             title={title}
             imageUrl={Spheal} 
-            textBody={textbody} 
+            textBody={aboutMe.textBody} 
             orientation="horizontal"
             />
         </div>
