@@ -7,7 +7,7 @@ function AboutMe() {
     let title = "About Me";
 
     return (
-        <div>            
+        <div className="content">            
             <PromoCard 
             title={title}
             imageUrl={Spheal} 

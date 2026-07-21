@@ -33,7 +33,7 @@ function PromoCard({title, imageUrl, textBody, linkText, linkUrl, orientation = 
     }
 
     return (
-        <Card  className={"card my-3 mx-auto" + insertedClasses}>
+        <Card  className={"card my-3 mx-auto " + insertedClasses}>
                 <TitleCheck title={title} />
                 
                 <Col>

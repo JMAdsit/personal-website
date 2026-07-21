@@ -6,22 +6,24 @@ import referrals from "../content/ReferralText";
 function Referrals () {
 
     return (
-        <Row>
-            <Col>
-                <TextCard 
-                    title={referrals.cmurray.title}
-                    textBody={referrals.cmurray.text}
-                    insertedClasses={"referral-card"}
-                />
-            </Col>
-            <Col>
-                <TextCard 
-                    title={referrals.akrumsieg.title}
-                    textBody={referrals.akrumsieg.text}
-                    insertedClasses={"referral-card"}
-                />
-            </Col>
-        </Row>
+        <div className="content">
+            <Row>
+                <Col>
+                    <TextCard 
+                        title={referrals.cmurray.title}
+                        textBody={referrals.cmurray.text}
+                        insertedClasses={"referral-card"}
+                    />
+                </Col>
+                <Col>
+                    <TextCard 
+                        title={referrals.akrumsieg.title}
+                        textBody={referrals.akrumsieg.text}
+                        insertedClasses={"referral-card"}
+                    />
+                </Col>
+            </Row>
+        </div>
     );
 }
 

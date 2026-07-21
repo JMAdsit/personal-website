@@ -6,7 +6,7 @@ import PromoCard from "../components/PromoCard";
 function Projects() {
 
     return (
-        <div>
+        <div className="content">
             <Row>
                 <Col>
                     <PromoCard 

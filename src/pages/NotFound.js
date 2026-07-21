@@ -11,7 +11,7 @@ function NotFound() {
     let body = "";
   
     return (
-        <div className="NotFound d-flex flex-column justify-content-center">
+        <div className="NotFound content d-flex flex-column justify-content-center">
             <TextCard 
                 title={title}
                 body={body}    

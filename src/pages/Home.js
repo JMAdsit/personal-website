@@ -1,7 +1,9 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import PromoCard from "../components/PromoCard";
-import Spheal from "../assets/Spheal.gif";
+import MainCardPic from "../assets/coding-programming-vectorpo.png";
+import ReferralPic from "../assets/employee-directory-vector.png";
+import EmailMe from "../assets/envelope-and-pen-vectorportal.png";
 
 let textBody = 
     "Full-stack developer and software engineer with experience in automated testing and regression test monitoring.";
@@ -10,9 +12,9 @@ let textBody =
 function Home() {
     
     return (
-        <div >            
+        <div className="content">            
             <PromoCard 
-                imageUrl={Spheal} 
+                imageUrl={MainCardPic} 
                 textBody={textBody} 
                 orientation="horizontal"
                 linkText={"About Me"}
@@ -23,26 +25,29 @@ function Home() {
             <Row className="cardRow">
                 <Col>
                     <PromoCard 
-                        imageUrl={Spheal} 
+                        imageUrl={ReferralPic} 
                         textBody={"Nice things said about me"}
                         linkText={"Referrals"} 
                         linkUrl={"/Referrals"}
+                        insertedClasses={"mainPageSubCards"}
                     />
                 </Col>
-                <Col>                        
+                {/* <Col>                        
                     <PromoCard 
                         imageUrl={Spheal} 
                         textBody={"Blurb about projects"}
                         linkText={"Projects"} 
                         linkUrl={"/projects"}
+                        insertedClasses={"mainPageSubCards"}
                     />
-                </Col>
+                </Col> */}
                 <Col>
                     <PromoCard 
-                        imageUrl={Spheal} 
+                        imageUrl={EmailMe} 
                         textBody={"blurp about contacting me"}
                         linkText={"Contact Me"} 
                         linkUrl={"/contact"}
+                        insertedClasses={"mainPageSubCards"}
                     />
                 </Col>
             </Row>
