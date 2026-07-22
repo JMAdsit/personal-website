@@ -3,9 +3,9 @@ import { Card, Row, Col } from "react-bootstrap";
 import LinkCheck from "./LinkCheck";
 import TitleCheck from "./TitleCheck";
 
-function PromoCard({title, imageUrl, textBody, linkText, linkUrl, orientation = "", insertedClasses}) {
+function PromoCard({title, imageUrl, textBody, linkText, linkUrl, horizontal = false, insertedClasses}) {
 
-    if (orientation === "horizontal") {
+    if (horizontal === true) {
         return (
             <Card  className={"horizontalCard card my-3 m-auto " + insertedClasses}>
                 <TitleCheck title={title} />

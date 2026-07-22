@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import TextCard from "../components/TextCard";
 import referrals from "../content/ReferralText";
+import PromoCard from "../components/PromoCard";
+import talkyPic from "../assets/programming-languages-vector.jpg";
 
 function Referrals () {
 
@@ -9,14 +10,16 @@ function Referrals () {
         <div className="content">
             <Row>
                 <Col>
-                    <TextCard 
+                    <PromoCard
+                        imageUrl={talkyPic}
                         title={referrals.cmurray.title}
                         textBody={referrals.cmurray.text}
                         insertedClasses={"referral-card"}
                     />
                 </Col>
                 <Col>
-                    <TextCard 
+                    <PromoCard
+                        imageUrl={talkyPic}
                         title={referrals.akrumsieg.title}
                         textBody={referrals.akrumsieg.text}
                         insertedClasses={"referral-card"}

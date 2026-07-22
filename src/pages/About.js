@@ -12,7 +12,7 @@ function AboutMe() {
             title={title}
             imageUrl={Spheal} 
             textBody={aboutMe.textBody} 
-            orientation="horizontal"
+            horizontal={true}
             />
         </div>
     );

@@ -53,6 +53,12 @@ code {
   /* color: green; */
 }
 
+.referral-card .card-img {
+  max-width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
 .promoTextandLinkFrame {
   display: flex;
   flex-direction: column;
@@ -145,7 +151,7 @@ code {
 }
 
 #footer {
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   width: 100%;
   bottom: 0px;
