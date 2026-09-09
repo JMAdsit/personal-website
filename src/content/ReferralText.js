@@ -24,6 +24,18 @@ as well as legacy tools such as Protractor and Ruby Cucumber, and also deeply \
 familiar with TypeScript, C#, and SQL. He learned quickly, approached problems thoughtfully, \
 and often contributed ideas that improved our testing processes. Beyond his technical expertise, \
 he was a reliable, collaborative, and positive presence. Any team would be lucky to have him.`
+    },
+
+    bnichols: {
+        title: 
+`Beth Nichols,
+Petitions Lead - Colorado Department of State`,
+        text: 
+`We appreciate both the excellent work that Jeremiah has consistently \
+produced for the Department, and the self-managed way in which he conducts \
+himself. He is an employee who makes the management of this project easier \
+as he requires no supervision. Additionally, he is a pleasure to interact \
+with every day. He will be missed as he moves on to other endeavors.`
     }
 }
 

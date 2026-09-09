@@ -12,7 +12,7 @@ function Menu() {
                     {/* <NavButton name="Projects" link="/projects" />  */}
                     <NavButton name="About" link="/about" />
                     <NavButton name="Referrals" link="/referrals" /> 
-                    <NavButton name="Contact" link="/contact" /> 
+                    <NavButton name="Contact" link="mailto:jeremiah.adsit@gmail.com" />
                 </Stack>
             </nav> 
             <HiMiniCodeBracket id="headerIcon" />

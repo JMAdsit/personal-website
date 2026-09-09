@@ -27,15 +27,6 @@ function Home() {
             />
 
             <Row className="cardRow">
-                {/* <Col>                        
-                    <PromoCard 
-                        imageUrl={Spheal} 
-                        textBody={"Blurb about projects"}
-                        linkText={"Projects"} 
-                        linkUrl={"/projects"}
-                        insertedClasses={"mainPageSubCards"}
-                    />
-                </Col> */}
                 <Col>
                     <PromoCard 
                         imageUrl={ReferralPic} 
@@ -50,7 +41,7 @@ function Home() {
                         imageUrl={EmailMe} 
                         textBody={contactText}
                         linkText={"Contact Me"} 
-                        linkUrl={"/contact"}
+                        linkUrl={"mailto:jeremiah.adsit@gmail.com"}
                         insertedClasses={"mainPageSubCards"}
                     />
                 </Col>

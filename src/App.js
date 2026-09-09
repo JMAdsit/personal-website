@@ -1,4 +1,3 @@
-import React from "react";
 import Menu from "./navigation/Menu";
 import Routing from "./navigation/Routing";
 import Footer from "./navigation/Footer";
