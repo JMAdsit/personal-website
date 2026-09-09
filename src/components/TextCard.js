@@ -1,4 +1,3 @@
-import React from "react";
 import LinkCheck from "./LinkCheck";
 import { Col, Row } from "react-bootstrap";
 import TitleCheck from "./TitleCheck";

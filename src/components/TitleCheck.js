@@ -1,5 +1,3 @@
-import React from "react";
-
 function TitleCheck({title}) {
     if (!title) {return null;}
     

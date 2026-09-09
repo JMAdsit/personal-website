@@ -1,4 +1,3 @@
-import React from "react";
 import NavButton from "../components/NavButton";
 import Stack from "react-bootstrap/Stack";
 import { HiMiniCodeBracket } from "react-icons/hi2";

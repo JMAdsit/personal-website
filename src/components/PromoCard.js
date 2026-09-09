@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import LinkCheck from "./LinkCheck";
 import TitleCheck from "./TitleCheck";

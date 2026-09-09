@@ -1,10 +1,8 @@
-import React from "react";
 import { Row, Col } from "react-bootstrap";
 import PromoCard from "../components/PromoCard";
 import MainCardPic from "../assets/programming-language-on-screen.png";
 import ReferralPic from "../assets/employee-directory-vector.png";
 import EmailMe from "../assets/envelope-and-pen-vectorportal.png";
-// import Spheal from "../assets/Spheal.gif";
 
 let promoText = 
 `Full-stack developer and software engineer with experience in \
