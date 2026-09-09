@@ -167,6 +167,11 @@ code {
   text-align: center;
 }
 
+.footerLink {
+  font-size: x-large;
+  color: green;
+}
+
 @media (max-width: 1333px) {
   .contentFrame {
     width: 90%;

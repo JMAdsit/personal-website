@@ -11,7 +11,7 @@ function Menu() {
                     {/* <NavButton name="Projects" link="/projects" />  */}
                     <NavButton name="About" link="/about" />
                     <NavButton name="Referrals" link="/referrals" /> 
-                    <NavButton name="Contact" link="mailto:jeremiah.adsit@gmail.com" />
+                    <NavButton name="Contact" title={"jeremiah.adsit@gmail.com"} link="mailto:jeremiah.adsit@gmail.com" />
                 </Stack>
             </nav> 
             <HiMiniCodeBracket id="headerIcon" />

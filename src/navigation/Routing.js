@@ -16,7 +16,7 @@ function Routing() {
 
                 <Route exact={true} path="/referrals" element={<Referrals />} />
 
-                <Route exact={true} path="/contact" element={<Contact />} />
+                {/* <Route exact={true} path="/contact" element={<Contact />} /> */}
 
                 <Route path="*" element={<NotFound />} />
             </Routes>

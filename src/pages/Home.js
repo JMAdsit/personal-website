@@ -39,7 +39,7 @@ function Home() {
                         imageUrl={EmailMe} 
                         textBody={contactText}
                         linkText={"Contact Me"} 
-                        linkUrl={"mailto:jeremiah.adsit@gmail.com"}
+                        linkUrl={"/contact"}
                         insertedClasses={"mainPageSubCards"}
                     />
                 </Col>
