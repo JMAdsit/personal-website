@@ -8,13 +8,13 @@ import NotFound from "../pages/NotFound";
 function Routing() {
     return (
             <Routes>
-                <Route exact={true} path="/" element={<Home />} />
+                <Route exact={true} path="/personal-website/" element={<Home />} />
 
                 {/* <Route exact={true} path="/projects" element={<Projects />} /> */}
 
-                <Route exact={true} path="/about" element={<About />} />
+                <Route exact={true} path="/personal-website/about" element={<About />} />
 
-                <Route exact={true} path="/referrals" element={<Referrals />} />
+                <Route exact={true} path="/personal-website/referrals" element={<Referrals />} />
 
                 {/* <Route exact={true} path="/contact" element={<Contact />} /> */}
 
