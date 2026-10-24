@@ -7,7 +7,7 @@ function AboutMe() {
     return (
         <div className="content">            
             <PromoCard 
-                title={"About Me"}
+                title={"Jeremiah Adsit"}
                 imageUrl={Spheal} 
                 textBody={aboutMe.textBody} 
                 horizontal={true}
