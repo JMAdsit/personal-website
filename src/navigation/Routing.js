@@ -10,13 +10,13 @@ function Routing() {
             <Routes>
                 <Route exact={true} path="/personal-website/" element={<Home />} />
 
-                {/* <Route exact={true} path="/projects" element={<Projects />} /> */}
+                {/* <Route exact={true} path="/personal-website/projects" element={<Projects />} /> */}
 
                 <Route exact={true} path="/personal-website/about" element={<About />} />
 
                 <Route exact={true} path="/personal-website/referrals" element={<Referrals />} />
 
-                {/* <Route exact={true} path="/contact" element={<Contact />} /> */}
+                <Route exact={true} path="/personal-website/contact" element={<Contact />} />
 
                 <Route path="*" element={<NotFound />} />
             </Routes>

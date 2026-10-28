@@ -5,8 +5,8 @@ import { FaChevronCircleRight } from "react-icons/fa";
 function LinkCheck ({linkText, linkUrl}) {
     if (!linkText) return null;
 
-    return (<
-        Row className="linkRow">
+    return (
+        <Row className="linkRow">
             <Link 
                 className="button promoCardLink"
                 to={linkUrl}>

@@ -8,10 +8,10 @@ function Menu() {
             <nav id="nav" className="navbar justify-content-end m-auto">
                 <Stack direction="horizontal" gap={5}>
                     <NavButton name="Home" link="/personal-website/" />
-                    {/* <NavButton name="Projects" link="/projects" />  */}
+                    {/* <NavButton name="Projects" link="/personal-website/projects" />  */}
                     <NavButton name="About" link="/personal-website/about" />
                     <NavButton name="Referrals" link="/personal-website/referrals" /> 
-                    <NavButton name="Contact" title={"jeremiah.adsit@gmail.com"} link="mailto:jeremiah.adsit@gmail.com" />
+                    <NavButton name="Contact" link="/personal-website/contact" />
                 </Stack>
             </nav> 
             <HiMiniCodeBracket id="headerIcon" />

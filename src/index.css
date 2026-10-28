@@ -80,6 +80,24 @@ code {
   margin: auto;
 }
 
+.contactFormInput input {
+  width: 100%;
+}
+
+.message textarea{
+  width: 100%;
+  min-height: 2em;
+  height: 8em;
+}
+
+input, label {
+  display: block;
+}
+
+.submitButton {
+  margin-top: 20px;
+}
+
 .linkRow {
   position: relative;
   left: 33px;
@@ -106,6 +124,38 @@ code {
   right: 17px;
   top: 36%;
   color: white;
+}
+
+.buttonRow {
+  position: relative;
+  left: 33px;
+  margin-left: 25%;
+  width: 75%;
+}
+
+.submitButton {
+  background: linear-gradient(90deg,rgb(0, 171, 100) 0%, rgb(0, 148, 86) 100%);
+  border: none;
+  color: white;
+  text-align: left;
+  text-indent: 20px;
+  height: 3em;
+  top: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.buttonIcon {
+  position: absolute;
+  right: 17px;
+  top: 51%;
+  color: white;
+}
+
+.contactInfo a {
+  display: block;
 }
 
 #headerIcon {

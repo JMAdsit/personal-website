@@ -1,5 +1,5 @@
 import PromoCard from "../components/PromoCard";
-import Spheal from "../assets/Spheal.gif";
+import Portrait from "../assets/Portrait.jpg";
 import aboutMe from "../content/AboutMeText";
 
 function AboutMe() {
@@ -8,7 +8,7 @@ function AboutMe() {
         <div className="content">            
             <PromoCard 
                 title={"Jeremiah Adsit"}
-                imageUrl={Spheal} 
+                imageUrl={Portrait} 
                 textBody={aboutMe.textBody} 
                 horizontal={true}
             />

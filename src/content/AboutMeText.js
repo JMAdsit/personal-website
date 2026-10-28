@@ -16,7 +16,7 @@ potential use cases.`,
 `Front End Development: Typescript, JavaScript, React, HTML5, CSS3
 Back End Development:  C#, .NET, Node, Ruby, SQL, Python 
 Testing Frameworks:  Playwright, Cypress, Jasmine, Protractor, xUnit, NUnit, MSTest
-Additional: Git, Postman`
+Additional Skills: Git, Postman`
 }
 
 export default aboutMe;
