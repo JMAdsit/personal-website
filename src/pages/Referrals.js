@@ -6,6 +6,7 @@ function Referrals () {
 
     return (
         <div className="content">
+            <title>Jeremiah Adsit | Referrals</title>
             <Row>
                 <Col>
                     <PromoCard

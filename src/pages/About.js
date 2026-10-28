@@ -5,7 +5,8 @@ import aboutMe from "../content/AboutMeText";
 function AboutMe() {
 
     return (
-        <div className="content">            
+        <div className="content">     
+        <title>Jeremiah Adsit | About</title>       
             <PromoCard 
                 title={"Jeremiah Adsit"}
                 imageUrl={Portrait} 

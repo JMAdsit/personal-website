@@ -6,6 +6,7 @@ function Projects() {
 
     return (
         <div className="content">
+            <title>Jeremiah Adsit | Projects</title>
             <Row>
                 <Col>
                     <PromoCard 

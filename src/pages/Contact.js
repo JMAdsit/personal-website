@@ -7,6 +7,7 @@ function ContactMe () {
 
     return (
         <div>
+            <title>Jeremiah Adsit | Contact</title>
             <Row>
                 <Col>
                     <Card>
