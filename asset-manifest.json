@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.e883b075.css",
-    "main.js": "/personal-website/static/js/main.60c1ed59.js",
+    "main.js": "/personal-website/static/js/main.d53fe396.js",
     "static/js/453.855ab442.chunk.js": "/personal-website/static/js/453.855ab442.chunk.js",
     "static/media/Portrait.jpg": "/personal-website/static/media/Portrait.a308624d0e52dcece374.jpg",
     "static/media/envelope-and-pen-vectorportal.png": "/personal-website/static/media/envelope-and-pen-vectorportal.93e3b59c8e169e0fd5cc.png",
@@ -10,11 +10,11 @@
     "static/media/programming-language-on-screen.png": "/personal-website/static/media/programming-language-on-screen.d259830642dc63858008.png",
     "index.html": "/personal-website/index.html",
     "main.e883b075.css.map": "/personal-website/static/css/main.e883b075.css.map",
-    "main.60c1ed59.js.map": "/personal-website/static/js/main.60c1ed59.js.map",
+    "main.d53fe396.js.map": "/personal-website/static/js/main.d53fe396.js.map",
     "453.855ab442.chunk.js.map": "/personal-website/static/js/453.855ab442.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e883b075.css",
-    "static/js/main.60c1ed59.js"
+    "static/js/main.d53fe396.js"
   ]
 }
