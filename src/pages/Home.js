@@ -19,7 +19,7 @@ function Home() {
                 imageUrl={MainCardPic} 
                 textBody={promoText} 
                 linkText={"About Me"}
-                linkUrl={"/personal-website/about"}
+                linkUrl={"/portfolio/about"}
                 insertedClasses={"mainPageSplashCard"}
                 horizontal={true}
             />
@@ -30,7 +30,7 @@ function Home() {
                         imageUrl={ReferralPic} 
                         textBody={referralText}
                         linkText={"Referrals"} 
-                        linkUrl={"/personal-website/Referrals"}
+                        linkUrl={"/portfolio/Referrals"}
                         insertedClasses={"mainPageSubCards"}
                     />
                 </Col>
@@ -39,7 +39,7 @@ function Home() {
                         imageUrl={EmailMe} 
                         textBody={contactText}
                         linkText={"Contact Me"} 
-                        linkUrl={"/personal-website/contact"}
+                        linkUrl={"/portfolio/contact"}
                         insertedClasses={"mainPageSubCards"}
                     />
                 </Col>

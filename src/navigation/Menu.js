@@ -7,11 +7,11 @@ function Menu() {
         <header role="banner">
             <nav id="nav" className="navbar justify-content-end m-auto">
                 <Stack direction="horizontal" gap={5}>
-                    <NavButton name="Home" link="/personal-website/" />
-                    {/* <NavButton name="Projects" link="/personal-website/projects" />  */}
-                    <NavButton name="About" link="/personal-website/about" />
-                    <NavButton name="Referrals" link="/personal-website/referrals" /> 
-                    <NavButton name="Contact" link="/personal-website/contact" />
+                    <NavButton name="Home" link="/portfolio/" />
+                    {/* <NavButton name="Projects" link="/portfolio/projects" />  */}
+                    <NavButton name="About" link="/portfolio/about" />
+                    <NavButton name="Referrals" link="/portfolio/referrals" /> 
+                    <NavButton name="Contact" link="/portfolio/contact" />
                 </Stack>
             </nav> 
             <HiMiniCodeBracket id="headerIcon" />
