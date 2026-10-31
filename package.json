@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jmadsit.github.io/personal-website",
-  "name": "personal-website",
+  "homepage": "https://jmadsit.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
