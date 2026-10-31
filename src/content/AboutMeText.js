@@ -13,10 +13,10 @@ appropriate scope for tests, minimizing test weight while ensuring coverage of a
 potential use cases.`,
 
     skills:
-`Front End Development: Typescript, JavaScript, React, HTML5, CSS3
-Back End Development:  C#, .NET, Node, Ruby, SQL, Python 
-Testing Frameworks:  Playwright, Cypress, Jasmine, Protractor, xUnit, NUnit, MSTest
-Additional Skills: Git, Postman`
+<><b>Front End Development:</b> Typescript, JavaScript, React, HTML5, CSS3<br />
+<b>Back End Development:</b>  C#, .NET, Node, Ruby, SQL, Python<br />
+<b>Testing Frameworks:</b>  Playwright, Cypress, Jasmine, Protractor, xUnit, NUnit, MSTest<br />
+<b>Additional Skills:</b> Git, Postman</>
 }
 
 export default aboutMe;
